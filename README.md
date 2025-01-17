@@ -47,7 +47,7 @@ Arrays of XY-data are also supported:
 
 ![Square.vi](images/Square.vi.png)
 
-### Array Functions
+### XY 'Array' Functions
 #### Reverse.vi
 
 ![Reverse.vi](images/Reverse.vi.png)
@@ -113,9 +113,23 @@ Arrays of XY-data are also supported:
 
 ![Shift Zero.vi](images/Shift-Zero.vi.png)
 
-##$# Symmetrize.vi
+#### Symmetrize.vi
 
 ![Symmetrize.vi](images/Symmetrize.vi.png)
+
+### 2D Array Conversion
+
+#### 2D to YX.vi
+
+![image](https://github.com/user-attachments/assets/d910acd5-da24-4182-9bf3-f50d6d4796a5)
+
+#### 2D to YX.vi
+
+![image](https://github.com/user-attachments/assets/d7181732-4c95-45ea-a0a1-5569bf60d50a)
+
+#### XY to 2D.vi
+
+![image](https://github.com/user-attachments/assets/8506c907-e7f7-4d49-a088-1728f6396368)
 
 ### Waveform Conversion
 
