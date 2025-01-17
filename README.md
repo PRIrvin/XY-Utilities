@@ -1,20 +1,9 @@
 # XY Utilities
 Utilities for working with "XY data" in LabVIEW
 
-- [Getting Started](#getting-started)
-- [Usage](#usage)
-  - [Arithmetic Functions](#arithmetic-functions)
-  - [Array Functions](#array-functions)
-  - [Signal Processing](#signal-processing)
-  - [Waveform Conversion](#waveform-conversion)
-- [Examples](#examples)
-- [Contributing](#contributing)
-- [License](#license)
-
 ## Getting Started
-Download and install using the VI Package Manager as described [here](https://levylabpitt.github.io/)
-
-[Video tutorial]: (https://www.youtube.com/watch?v=hYuaFTodvhw)
+- Download and install using the VI Package Manager
+- [Video tutorial](https://www.youtube.com/watch?v=hYuaFTodvhw)
 
 ## Usage
 
