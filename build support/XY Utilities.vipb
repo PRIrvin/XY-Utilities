@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2025-01-17 16:44:13" Creator="Patrick Irvin" Comments="" ID="4c13b39f7e49930139fb93576de1f4a5">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2025-01-19 11:58:01" Creator="Patrick Irvin" Comments="" ID="cd8667af340b18779599b1705b19be2b">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_XY_Utilities</Package_File_Name>
-    <Library_Version>1.5.4.4</Library_Version>
+    <Library_Version>1.5.5.6</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -17,11 +17,11 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <External_Dependencies>levylab_lib_control_vi &gt;= 1.3.0.11</External_Dependencies>
+      <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
       <External_Dependencies>mgi_lib_1d_array &gt;= 1.0.2.3</External_Dependencies>
       <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
       <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
-      <Direct_Dependencies>levylab_lib_control_vi-1.3.0.11</Direct_Dependencies>
+      <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
       <Direct_Dependencies>mgi_lib_1d_array-1.0.2.3</Direct_Dependencies>
       <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
       <Direct_Dependencies>oglib_string-5.0.0.25</Direct_Dependencies>
@@ -47,10 +47,8 @@ Supported methods:
 - &lt;b&gt;Conversion&lt;/b&gt;: Waveform to XY, XY to Waveform, 2D to XY, XY to 2D</Description>
       <Copyright/>
       <Packager/>
-      <URL>https://github.com/ciozi137/xy_utilities</URL>
-      <Release_Notes>Bug Fixes
-- Difference Quotient calcualtes an X array with the correct length (matches DeltaY/DeltaX) (Issue #36)
-- Derivative correctly calculates the sampling interval dt (previously was off by a factor 2)</Release_Notes>
+      <URL>https://github.com/PRIrvin</URL>
+      <Release_Notes>update package dependencies</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -158,9 +156,9 @@ Supported methods:
         <Syncing_MNU_file/>
       </Controls_Palette_Information>
       <Functions_Palette_Information>
-        <Virtual_Palette_Base_Path>Functions\Addons\prirvin\PRIrvin-Palette</Virtual_Palette_Base_Path>
-        <Palette_Disk_Base_Path>&lt;vi.lib&gt;\addons\prirvin\_functions_prirvin_lib_prirvin_palette</Palette_Disk_Base_Path>
-        <Syncing_MNU_file>&lt;vi.lib&gt;\addons\prirvin\functions_prirvin_lib_prirvin_palette.mnu</Syncing_MNU_file>
+        <Virtual_Palette_Base_Path>Functions\Addons\prirvin</Virtual_Palette_Base_Path>
+        <Palette_Disk_Base_Path>&lt;vi.lib&gt;\addons\prirvin</Palette_Disk_Base_Path>
+        <Syncing_MNU_file>&lt;vi.lib&gt;\addons\prirvin\dir.mnu</Syncing_MNU_file>
       </Functions_Palette_Information>
       <Apply_Short_Names_to_VI_Titles>false</Apply_Short_Names_to_VI_Titles>
       <Apply_Short_Names_to_VI_Titles_2>false</Apply_Short_Names_to_VI_Titles_2>
@@ -789,7 +787,7 @@ Supported methods:
         <Path>..\src\2D to YX.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>2BAEDEA5BA1B14F330E1BF9F70A09B48</GUID>
+      <GUID>1C2F1B72968DE0DB0F4CBAF04A4E4D9E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -838,7 +836,7 @@ Supported methods:
         <Path>..\src\examples\XY State Machine Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C1DA3FC2E613C3D25F86CD2CCEA7EF4E</GUID>
+      <GUID>2C102A5B160D9E76E624CBE479A709FD</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
