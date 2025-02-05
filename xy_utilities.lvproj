@@ -71,7 +71,6 @@
 				<Item Name="End of Line Constant (bug fix).vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/string/string.llb/End of Line Constant (bug fix).vi"/>
 				<Item Name="MGI Interpolate 1D Array Extended.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Interpolate 1D Array Extended.vi"/>
 				<Item Name="MGI Threshold 1D Array Extended.vi" Type="VI" URL="/&lt;userlib&gt;/_MGI/1D Array/MGI Threshold 1D Array Extended.vi"/>
-				<Item Name="Ramp_SubVI.vi" Type="VI" URL="/&lt;userlib&gt;/LevyLab/Control VI/Other/Ramp_SubVI.vi"/>
 				<Item Name="Reorder 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CDB)__ogtk.vi"/>
 				<Item Name="Reorder 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CSG)__ogtk.vi"/>
 				<Item Name="Reorder 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CXT)__ogtk.vi"/>
