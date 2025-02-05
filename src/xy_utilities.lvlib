@@ -35,9 +35,9 @@
 	<Property Name="Serialized ACL" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="examples" Type="Folder">
-		<Item Name="Tree.vi" Type="VI" URL="../examples/Tree.vi"/>
 		<Item Name="XY State Machine Example.vi" Type="VI" URL="../examples/XY State Machine Example.vi"/>
 		<Item Name="Test Dataset.vi" Type="VI" URL="../../tests/Test Dataset.vi"/>
+		<Item Name="Tree.vi" Type="VI" URL="../examples/Tree.vi"/>
 	</Item>
 	<Item Name="utilities" Type="Folder">
 		<Item Name="Change Execution.vi" Type="VI" URL="../Utilities/Change Execution.vi"/>
@@ -64,8 +64,8 @@
 		<Item Name="Decimate (single).vi" Type="VI" URL="../subVIs/Decimate (single).vi"/>
 		<Item Name="Derivative (multiple).vi" Type="VI" URL="../subVIs/Derivative (multiple).vi"/>
 		<Item Name="Derivative (single).vi" Type="VI" URL="../subVIs/Derivative (single).vi"/>
-		<Item Name="Difference Quotient (single).vi" Type="VI" URL="../subVIs/Difference Quotient (single).vi"/>
 		<Item Name="Difference Quotient (multiple).vi" Type="VI" URL="../subVIs/Difference Quotient (multiple).vi"/>
+		<Item Name="Difference Quotient (single).vi" Type="VI" URL="../subVIs/Difference Quotient (single).vi"/>
 		<Item Name="Divide float (multiple).vi" Type="VI" URL="../subVIs/Divide float (multiple).vi"/>
 		<Item Name="Divide float (single).vi" Type="VI" URL="../subVIs/Divide float (single).vi"/>
 		<Item Name="Divide XY (multiple).vi" Type="VI" URL="../subVIs/Divide XY (multiple).vi"/>
@@ -82,18 +82,18 @@
 		<Item Name="Linear Fit (single).vi" Type="VI" URL="../subVIs/Linear Fit (single).vi"/>
 		<Item Name="Log (multiple).vi" Type="VI" URL="../subVIs/Log (multiple).vi"/>
 		<Item Name="Log (single).vi" Type="VI" URL="../subVIs/Log (single).vi"/>
-		<Item Name="Moving Average (single).vi" Type="VI" URL="../subVIs/Moving Average (single).vi"/>
 		<Item Name="Moving Average (multiple).vi" Type="VI" URL="../subVIs/Moving Average (multiple).vi"/>
+		<Item Name="Moving Average (single).vi" Type="VI" URL="../subVIs/Moving Average (single).vi"/>
 		<Item Name="Multiply float (multiple).vi" Type="VI" URL="../subVIs/Multiply float (multiple).vi"/>
 		<Item Name="Multiply float (single).vi" Type="VI" URL="../subVIs/Multiply float (single).vi"/>
 		<Item Name="Multiply XY (multiple).vi" Type="VI" URL="../subVIs/Multiply XY (multiple).vi"/>
 		<Item Name="Multiply XY (single).vi" Type="VI" URL="../subVIs/Multiply XY (single).vi"/>
 		<Item Name="PS (multiple).vi" Type="VI" URL="../subVIs/PS (multiple).vi"/>
 		<Item Name="PS (single).vi" Type="VI" URL="../subVIs/PS (single).vi"/>
-		<Item Name="Peak Detector (single).vi" Type="VI" URL="../subVIs/Peak Detector (single).vi"/>
 		<Item Name="Peak Detector (multiple).vi" Type="VI" URL="../subVIs/Peak Detector (multiple).vi"/>
-		<Item Name="Remove Outliers (single).vi" Type="VI" URL="../subVIs/Remove Outliers (single).vi"/>
+		<Item Name="Peak Detector (single).vi" Type="VI" URL="../subVIs/Peak Detector (single).vi"/>
 		<Item Name="Remove Outliers (multiple).vi" Type="VI" URL="../subVIs/Remove Outliers (multiple).vi"/>
+		<Item Name="Remove Outliers (single).vi" Type="VI" URL="../subVIs/Remove Outliers (single).vi"/>
 		<Item Name="Resample (multiple).vi" Type="VI" URL="../subVIs/Resample (multiple).vi"/>
 		<Item Name="Resample (single).vi" Type="VI" URL="../subVIs/Resample (single).vi"/>
 		<Item Name="Restrict X Range (single).vi" Type="VI" URL="../subVIs/Restrict X Range (single).vi"/>
@@ -124,10 +124,18 @@
 		<Item Name="Waveform to XY (single).vi" Type="VI" URL="../subVIs/Waveform to XY (single).vi"/>
 		<Item Name="XY to Waveform (multiple).vi" Type="VI" URL="../subVIs/XY to Waveform (multiple).vi"/>
 		<Item Name="XY to Waveform (single).vi" Type="VI" URL="../subVIs/XY to Waveform (single).vi"/>
-		<Item Name="Zero Phase Lowpass Filter (single).vi" Type="VI" URL="../subVIs/Zero Phase Lowpass Filter (single).vi"/>
 		<Item Name="Zero Phase Lowpass Filter (multiple).vi" Type="VI" URL="../subVIs/Zero Phase Lowpass Filter (multiple).vi"/>
-		<Item Name="Linear Fit CI (single)(unused).vi" Type="VI" URL="../subVIs/Linear Fit CI (single)(unused).vi"/>
+		<Item Name="Zero Phase Lowpass Filter (single).vi" Type="VI" URL="../subVIs/Zero Phase Lowpass Filter (single).vi"/>
 		<Item Name="Modified Sinc Filter (single).vi" Type="VI" URL="../subVIs/Modified Sinc Filter (single).vi"/>
+		<Item Name="Linear Fit CI (single)(unused).vi" Type="VI" URL="../subVIs/Linear Fit CI (single)(unused).vi"/>
+		<Item Name="Square Root (single).vi" Type="VI" URL="../subVIs/Square Root (single).vi"/>
+		<Item Name="Square Root (multiple).vi" Type="VI" URL="../subVIs/Square Root (multiple).vi"/>
+		<Item Name="Reciprocal (multiple).vi" Type="VI" URL="../subVIs/Reciprocal (multiple).vi"/>
+		<Item Name="Reciprocal (single).vi" Type="VI" URL="../subVIs/Reciprocal (single).vi"/>
+		<Item Name="Negate (single).vi" Type="VI" URL="../subVIs/Negate (single).vi"/>
+		<Item Name="Negate (multiple).vi" Type="VI" URL="../subVIs/Negate (multiple).vi"/>
+		<Item Name="Split (multiple).vi" Type="VI" URL="../subVIs/Split (multiple).vi"/>
+		<Item Name="Split (single).vi" Type="VI" URL="../subVIs/Split (single).vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -148,12 +156,16 @@
 	<Item Name="Multiply.vi" Type="VI" URL="../Multiply.vi"/>
 	<Item Name="Divide.vi" Type="VI" URL="../Divide.vi"/>
 	<Item Name="Square.vi" Type="VI" URL="../Square.vi"/>
+	<Item Name="Square Root.vi" Type="VI" URL="../Square Root.vi"/>
+	<Item Name="Reciprocal.vi" Type="VI" URL="../Reciprocal.vi"/>
+	<Item Name="Negate.vi" Type="VI" URL="../Negate.vi"/>
 	<Item Name="Log.vi" Type="VI" URL="../Log.vi"/>
 	<Item Name="Sort.vi" Type="VI" URL="../Sort.vi"/>
 	<Item Name="Reverse.vi" Type="VI" URL="../Reverse.vi"/>
 	<Item Name="Decimate.vi" Type="VI" URL="../Decimate.vi"/>
 	<Item Name="Decimate Array.vi" Type="VI" URL="../Decimate Array.vi"/>
 	<Item Name="Subset.vi" Type="VI" URL="../Subset.vi"/>
+	<Item Name="Split.vi" Type="VI" URL="../Split.vi"/>
 	<Item Name="Restrict X Range.vi" Type="VI" URL="../Restrict X Range.vi"/>
 	<Item Name="Remove Outliers.vi" Type="VI" URL="../Remove Outliers.vi"/>
 	<Item Name="Swap X and Y.vi" Type="VI" URL="../Swap X and Y.vi"/>
