@@ -19,6 +19,7 @@
 		</Item>
 		<Item Name="tests" Type="Folder">
 			<Item Name="dynamic call test.vi" Type="VI" URL="../tests/dynamic call test.vi"/>
+			<Item Name="Test Circular Buffer.vi" Type="VI" URL="../tests/Test Circular Buffer.vi"/>
 			<Item Name="Test Derivative.vi" Type="VI" URL="../tests/Test Derivative.vi"/>
 			<Item Name="Test Filters.vi" Type="VI" URL="../tests/Test Filters.vi"/>
 			<Item Name="Test Performance.vi" Type="VI" URL="../tests/Test Performance.vi"/>
@@ -243,6 +244,7 @@
 				<Item Name="WDT Waveform to XY Pairs U64.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/WDTOps.llb/WDT Waveform to XY Pairs U64.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="Get X Array dx.vi" Type="VI" URL="../src/Private/Get X Array dx.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>

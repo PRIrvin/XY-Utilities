@@ -44,12 +44,13 @@
 	</Item>
 	<Item Name="private" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
-		<Item Name="Get X Array dx.vi" Type="VI" URL="../Private/Get X Array dx.vi"/>
 		<Item Name="X Units.vi" Type="VI" URL="../Private/X Units.vi"/>
 		<Item Name="DQ subVI.vi" Type="VI" URL="../Private/DQ subVI.vi"/>
 		<Item Name="X Array Range to Index.vi" Type="VI" URL="../Private/X Array Range to Index.vi"/>
 		<Item Name="X Array Index to Range.vi" Type="VI" URL="../Private/X Array Index to Range.vi"/>
 		<Item Name="Hann Windows.vi" Type="VI" URL="../Private/Hann Windows.vi"/>
+		<Item Name="Circular Buffer subVI.vi" Type="VI" URL="../Private/Circular Buffer subVI.vi"/>
+		<Item Name="Circular Buffer Timestamp subVI.vi" Type="VI" URL="../Private/Circular Buffer Timestamp subVI.vi"/>
 	</Item>
 	<Item Name="Poly subVIs" Type="Folder">
 		<Item Name="Add float (multiple).vi" Type="VI" URL="../subVIs/Add float (multiple).vi"/>
@@ -136,6 +137,13 @@
 		<Item Name="Negate (multiple).vi" Type="VI" URL="../subVIs/Negate (multiple).vi"/>
 		<Item Name="Split (multiple).vi" Type="VI" URL="../subVIs/Split (multiple).vi"/>
 		<Item Name="Split (single).vi" Type="VI" URL="../subVIs/Split (single).vi"/>
+		<Item Name="Circular Buffer (single).vi" Type="VI" URL="../subVIs/Circular Buffer (single).vi"/>
+		<Item Name="Circular Buffer (array).vi" Type="VI" URL="../subVIs/Circular Buffer (array).vi"/>
+		<Item Name="Circular Buffer (multiple).vi" Type="VI" URL="../subVIs/Circular Buffer (multiple).vi"/>
+		<Item Name="Circular Buffer (waveform).vi" Type="VI" URL="../subVIs/Circular Buffer (waveform).vi"/>
+		<Item Name="Circular Buffer (waveforms).vi" Type="VI" URL="../subVIs/Circular Buffer (waveforms).vi"/>
+		<Item Name="Get Size (single).vi" Type="VI" URL="../subVIs/Get Size (single).vi"/>
+		<Item Name="Get Size (multiple).vi" Type="VI" URL="../subVIs/Get Size (multiple).vi"/>
 	</Item>
 	<Item Name="Templates" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -144,6 +152,7 @@
 	</Item>
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Interpolation Configuration--cluster.ctl" Type="VI" URL="../Typedefs/Interpolation Configuration--cluster.ctl"/>
+		<Item Name="XY-Data--Cluster.ctl" Type="VI" URL="../Typedefs/XY-Data--Cluster.ctl"/>
 	</Item>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 	<Item Name="Waveform to XY.vi" Type="VI" URL="../Waveform to XY.vi"/>
@@ -170,8 +179,10 @@
 	<Item Name="Remove Outliers.vi" Type="VI" URL="../Remove Outliers.vi"/>
 	<Item Name="Swap X and Y.vi" Type="VI" URL="../Swap X and Y.vi"/>
 	<Item Name="Get X and Y.vi" Type="VI" URL="../Get X and Y.vi"/>
+	<Item Name="Get X Array dx.vi" Type="VI" URL="../Get X Array dx.vi"/>
 	<Item Name="Append.vi" Type="VI" URL="../Append.vi"/>
 	<Item Name="Interpolate Y.vi" Type="VI" URL="../Interpolate Y.vi"/>
+	<Item Name="Circular Buffer.vi" Type="VI" URL="../Circular Buffer.vi"/>
 	<Item Name="Shift Zero.vi" Type="VI" URL="../Shift Zero.vi"/>
 	<Item Name="Symmetrize.vi" Type="VI" URL="../Symmetrize.vi"/>
 	<Item Name="Average.vi" Type="VI" URL="../Average.vi"/>
@@ -189,4 +200,5 @@
 	<Item Name="Moving Average.vi" Type="VI" URL="../Moving Average.vi"/>
 	<Item Name="Savitsky Golay Filter.vi" Type="VI" URL="../Savitsky Golay Filter.vi"/>
 	<Item Name="Savitsky Golay Weighted Filter.vi" Type="VI" URL="../Savitsky Golay Weighted Filter.vi"/>
+	<Item Name="Get Size.vi" Type="VI" URL="../Get Size.vi"/>
 </Library>
