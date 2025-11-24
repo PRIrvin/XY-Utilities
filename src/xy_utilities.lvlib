@@ -180,6 +180,7 @@
 	<Item Name="Swap X and Y.vi" Type="VI" URL="../Swap X and Y.vi"/>
 	<Item Name="Get X and Y.vi" Type="VI" URL="../Get X and Y.vi"/>
 	<Item Name="Get X Array dx.vi" Type="VI" URL="../Get X Array dx.vi"/>
+	<Item Name="Get Size.vi" Type="VI" URL="../Get Size.vi"/>
 	<Item Name="Append.vi" Type="VI" URL="../Append.vi"/>
 	<Item Name="Interpolate Y.vi" Type="VI" URL="../Interpolate Y.vi"/>
 	<Item Name="Circular Buffer.vi" Type="VI" URL="../Circular Buffer.vi"/>
@@ -200,5 +201,4 @@
 	<Item Name="Moving Average.vi" Type="VI" URL="../Moving Average.vi"/>
 	<Item Name="Savitsky Golay Filter.vi" Type="VI" URL="../Savitsky Golay Filter.vi"/>
 	<Item Name="Savitsky Golay Weighted Filter.vi" Type="VI" URL="../Savitsky Golay Weighted Filter.vi"/>
-	<Item Name="Get Size.vi" Type="VI" URL="../Get Size.vi"/>
 </Library>
