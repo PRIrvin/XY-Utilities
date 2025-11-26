@@ -18,8 +18,11 @@
 			<Item Name="XY Utilities.vipc" Type="Document" URL="../build support/XY Utilities.vipc"/>
 		</Item>
 		<Item Name="tests" Type="Folder">
+			<Item Name="CISS Data.vi" Type="VI" URL="../tests/CISS Data.vi"/>
 			<Item Name="dynamic call test.vi" Type="VI" URL="../tests/dynamic call test.vi"/>
 			<Item Name="Test Circular Buffer.vi" Type="VI" URL="../tests/Test Circular Buffer.vi"/>
+			<Item Name="Test Cross Correlation.vi" Type="VI" URL="../tests/Test Cross Correlation.vi"/>
+			<Item Name="Test Dataset.vi" Type="VI" URL="../tests/Test Dataset.vi"/>
 			<Item Name="Test Derivative.vi" Type="VI" URL="../tests/Test Derivative.vi"/>
 			<Item Name="Test Filters.vi" Type="VI" URL="../tests/Test Filters.vi"/>
 			<Item Name="Test Performance.vi" Type="VI" URL="../tests/Test Performance.vi"/>
