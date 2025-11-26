@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2025-11-26 15:19:06" Creator="Patrick Irvin" Comments="" ID="f3a8c4921c533249cfdfc8710268d111">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2025-11-26 16:53:20" Creator="Patrick Irvin" Comments="" ID="5f802ca43d00944cc9c3456cd27e756a">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_XY_Utilities</Package_File_Name>
-    <Library_Version>1.8.0.11</Library_Version>
+    <Library_Version>1.8.0.12</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -948,7 +948,7 @@ Other:
         <Path>..\src\Flatten.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>38148221ED835EB2B9A0C401D504A272</GUID>
+      <GUID>95A43144C60F242943D0FEC07092644E</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -997,7 +997,7 @@ Other:
         <Path>..\src\examples\XY State Machine Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>6F61C6959672B341EF4D7E400817A242</GUID>
+      <GUID>65B21777BE4E2EEA02B8CE27EAD5AF6F</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
