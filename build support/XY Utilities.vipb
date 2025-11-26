@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2025-11-26 13:11:33" Creator="Patrick Irvin" Comments="" ID="967178d82468c4fa0eb7fe83ff142302">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2025-11-26 13:45:56" Creator="Patrick Irvin" Comments="" ID="68e80e4aeb599db372a41b0d151251ad">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_XY_Utilities</Package_File_Name>
-    <Library_Version>1.7.0.9</Library_Version>
+    <Library_Version>1.8.0.10</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -48,9 +48,14 @@ Supported methods:
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PRIrvin</URL>
-      <Release_Notes>- Issue #38: New method: Circular Buffer.vi
-- Issue #39: Update Moving Average to use Circular Buffer.vi
-- New Method: Get Size.vi</Release_Notes>
+      <Release_Notes>New methods:
+- Auto Correlation
+- Cross Correlation
+- Max and Min
+- XY to (x,y) and (x,y) to XY
+
+Other:
+- Make better and more efficient use of indexing terminals and in-place element structures</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -943,7 +948,7 @@ Supported methods:
         <Path>..\src\Flatten.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7E1689D294411D416DAF940C874BA695</GUID>
+      <GUID>F4F4CCFCE5D15C391D99A9A758AA65B1</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -992,7 +997,7 @@ Supported methods:
         <Path>..\src\examples\XY State Machine Example.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>C5DD1C2C31F77A65AD00CED22CA2DCDC</GUID>
+      <GUID>85E90F01151164F52F9AC6A0EEF6FAD5</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
