@@ -213,4 +213,5 @@
 	<Item Name="Max and Min.vi" Type="VI" URL="../Max and Min.vi"/>
 	<Item Name="AutoCorrelation.vi" Type="VI" URL="../AutoCorrelation.vi"/>
 	<Item Name="CrossCorrelation.vi" Type="VI" URL="../CrossCorrelation.vi"/>
+	<Item Name="User.vi" Type="VI" URL="../User.vi"/>
 </Library>

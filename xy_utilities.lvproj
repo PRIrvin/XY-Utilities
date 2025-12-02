@@ -29,6 +29,7 @@
 			<Item Name="Test UI.vi" Type="VI" URL="../tests/Test UI.vi"/>
 			<Item Name="Test Y Interpolation.vi" Type="VI" URL="../tests/Test Y Interpolation.vi"/>
 		</Item>
+		<Item Name="User.lvclass" Type="LVClass" URL="../src/User/User.lvclass"/>
 		<Item Name="xy_utilities.lvlib" Type="Library" URL="../src/xy_utilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
