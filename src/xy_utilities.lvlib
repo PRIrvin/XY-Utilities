@@ -161,6 +161,7 @@
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Interpolation Configuration--cluster.ctl" Type="VI" URL="../Typedefs/Interpolation Configuration--cluster.ctl"/>
 	</Item>
+	<Item Name="Test Dataset.vi" Type="VI" URL="../Test Dataset.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 	<Item Name="Waveform to XY.vi" Type="VI" URL="../Waveform to XY.vi"/>
 	<Item Name="XY to Waveform.vi" Type="VI" URL="../XY to Waveform.vi"/>
