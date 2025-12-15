@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -22,12 +23,16 @@
 			<Item Name="dynamic call test.vi" Type="VI" URL="../tests/dynamic call test.vi"/>
 			<Item Name="Test Circular Buffer.vi" Type="VI" URL="../tests/Test Circular Buffer.vi"/>
 			<Item Name="Test Cross Correlation.vi" Type="VI" URL="../tests/Test Cross Correlation.vi"/>
-			<Item Name="Test Dataset.vi" Type="VI" URL="../tests/Test Dataset.vi"/>
 			<Item Name="Test Derivative.vi" Type="VI" URL="../tests/Test Derivative.vi"/>
 			<Item Name="Test Filters.vi" Type="VI" URL="../tests/Test Filters.vi"/>
 			<Item Name="Test Performance.vi" Type="VI" URL="../tests/Test Performance.vi"/>
 			<Item Name="Test UI.vi" Type="VI" URL="../tests/Test UI.vi"/>
 			<Item Name="Test Y Interpolation.vi" Type="VI" URL="../tests/Test Y Interpolation.vi"/>
+		</Item>
+		<Item Name="User" Type="Folder">
+			<Item Name="User.lvclass" Type="LVClass" URL="../src/User/User.lvclass"/>
+			<Item Name="User.Example.lvclass" Type="LVClass" URL="../src/User.Example/User.Example.lvclass"/>
+			<Item Name="User.Python.lvclass" Type="LVClass" URL="../src/User.Python/User.Python.lvclass"/>
 		</Item>
 		<Item Name="xy_utilities.lvlib" Type="Library" URL="../src/xy_utilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">

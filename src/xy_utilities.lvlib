@@ -35,6 +35,8 @@
 	<Property Name="Serialized ACL" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="examples" Type="Folder">
+		<Item Name="User Example.vi" Type="VI" URL="../examples/User Example.vi"/>
+		<Item Name="User Example - Python.vi" Type="VI" URL="../examples/User Example - Python.vi"/>
 		<Item Name="XY State Machine Example.vi" Type="VI" URL="../examples/XY State Machine Example.vi"/>
 		<Item Name="Tree.vi" Type="VI" URL="../examples/Tree.vi"/>
 	</Item>
@@ -161,6 +163,7 @@
 	<Item Name="Typedefs" Type="Folder">
 		<Item Name="Interpolation Configuration--cluster.ctl" Type="VI" URL="../Typedefs/Interpolation Configuration--cluster.ctl"/>
 	</Item>
+	<Item Name="Test Dataset.vi" Type="VI" URL="../Test Dataset.vi"/>
 	<Item Name="Initialize.vi" Type="VI" URL="../Initialize.vi"/>
 	<Item Name="Waveform to XY.vi" Type="VI" URL="../Waveform to XY.vi"/>
 	<Item Name="XY to Waveform.vi" Type="VI" URL="../XY to Waveform.vi"/>
@@ -213,4 +216,5 @@
 	<Item Name="Max and Min.vi" Type="VI" URL="../Max and Min.vi"/>
 	<Item Name="AutoCorrelation.vi" Type="VI" URL="../AutoCorrelation.vi"/>
 	<Item Name="CrossCorrelation.vi" Type="VI" URL="../CrossCorrelation.vi"/>
+	<Item Name="User.vi" Type="VI" URL="../User.vi"/>
 </Library>
