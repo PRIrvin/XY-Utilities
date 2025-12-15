@@ -3,6 +3,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -28,7 +29,11 @@
 			<Item Name="Test UI.vi" Type="VI" URL="../tests/Test UI.vi"/>
 			<Item Name="Test Y Interpolation.vi" Type="VI" URL="../tests/Test Y Interpolation.vi"/>
 		</Item>
-		<Item Name="User.lvclass" Type="LVClass" URL="../src/User/User.lvclass"/>
+		<Item Name="User" Type="Folder">
+			<Item Name="User.lvclass" Type="LVClass" URL="../src/User/User.lvclass"/>
+			<Item Name="User.Example.lvclass" Type="LVClass" URL="../src/User.Example/User.Example.lvclass"/>
+			<Item Name="User.Python.lvclass" Type="LVClass" URL="../src/User.Python/User.Python.lvclass"/>
+		</Item>
 		<Item Name="xy_utilities.lvlib" Type="Library" URL="../src/xy_utilities.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">

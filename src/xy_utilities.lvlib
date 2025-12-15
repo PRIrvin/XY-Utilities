@@ -35,6 +35,8 @@
 	<Property Name="Serialized ACL" Type="Bin">'1#!!!!!!!)!"1!&amp;!!!A1%!!!@````]!!".V&lt;H.J:WZF:#"C?82F)'&amp;S=G&amp;Z!!%!!1!!!!A)!!!!#!!!!!!!!!!</Property>
 	<Property Name="Use Data Logging Database" Type="Bool">true</Property>
 	<Item Name="examples" Type="Folder">
+		<Item Name="User Example.vi" Type="VI" URL="../examples/User Example.vi"/>
+		<Item Name="User Example - Python.vi" Type="VI" URL="../examples/User Example - Python.vi"/>
 		<Item Name="XY State Machine Example.vi" Type="VI" URL="../examples/XY State Machine Example.vi"/>
 		<Item Name="Tree.vi" Type="VI" URL="../examples/Tree.vi"/>
 	</Item>
