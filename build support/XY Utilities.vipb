@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2025-12-15 16:35:42" Creator="Patrick Irvin" Comments="" ID="19782e2858144412ee6a8d7cf346879c">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2025-12-15 16:49:06" Creator="Patrick Irvin" Comments="" ID="aff008e4ab58f57cf44c975020fa22a1">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_XY_Utilities</Package_File_Name>
-    <Library_Version>1.9.0.12</Library_Version>
+    <Library_Version>1.9.0.14</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -49,7 +49,7 @@ Supported methods:
       <Packager/>
       <URL>https://github.com/PRIrvin</URL>
       <Release_Notes>#44 add missing Test Dataset.vi
-#43 User.vi method for injucting user code via User.lvclass override
+#43 User.vi method for injecting user code via User.lvclass override
 #41 Python plugin example overrides User.lvclass</Release_Notes>
     </Description>
     <Destinations>
