@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2025-12-15 16:49:06" Creator="Patrick Irvin" Comments="" ID="aff008e4ab58f57cf44c975020fa22a1">
+<VI_Package_Builder_Settings Version="2018" Created_Date="2019-12-03 14:00:53" Modified_Date="2026-10-01 15:28:13" Creator="Patrick Irvin" Comments="" ID="c0063f5b495b3e874add0610b7d78f4f">
   <Library_General_Settings>
     <Package_File_Name>LevyLab_lib_XY_Utilities</Package_File_Name>
-    <Library_Version>1.9.0.14</Library_Version>
+    <Library_Version>1.9.1.15</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>..\src</Library_Source_Folder>
     <Library_Output_Folder>..\builds\Package</Library_Output_Folder>
@@ -18,11 +18,11 @@
   <Advanced_Settings>
     <Package_Dependencies>
       <External_Dependencies>jki_lib_state_machine &gt;= 2018.0.7.45</External_Dependencies>
-      <External_Dependencies>mgi_lib_1d_array &gt;= 1.0.2.3</External_Dependencies>
+      <External_Dependencies>mgi_lib_1d_array &gt;= 1.0.4.8</External_Dependencies>
       <External_Dependencies>oglib_array &gt;= 4.1.1.14</External_Dependencies>
       <External_Dependencies>oglib_string &gt;= 5.0.0.25</External_Dependencies>
       <Direct_Dependencies>jki_lib_state_machine-2018.0.7.45</Direct_Dependencies>
-      <Direct_Dependencies>mgi_lib_1d_array-1.0.2.3</Direct_Dependencies>
+      <Direct_Dependencies>mgi_lib_1d_array-1.0.4.8</Direct_Dependencies>
       <Direct_Dependencies>oglib_array-4.1.1.14</Direct_Dependencies>
       <Direct_Dependencies>oglib_string-5.0.0.25</Direct_Dependencies>
     </Package_Dependencies>
@@ -48,9 +48,7 @@ Supported methods:
       <Copyright/>
       <Packager/>
       <URL>https://github.com/PRIrvin</URL>
-      <Release_Notes>#44 add missing Test Dataset.vi
-#43 User.vi method for injecting user code via User.lvclass override
-#41 Python plugin example overrides User.lvclass</Release_Notes>
+      <Release_Notes>change Circular Buffer subVI reentrancy </Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
@@ -971,7 +969,7 @@ Supported methods:
         <Path>..\src\User.Python</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>26A86AFE1F2ABDC6C60148955E9DF9E4</GUID>
+      <GUID>8CC479278B98C5407594CE616915F4D3</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1048,7 +1046,7 @@ Supported methods:
         <Path>..\src\examples\User Example - Python.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>7BEBC5637563D506AADF8CC24F8F8FDA</GUID>
+      <GUID>17D9DA081F3C474170785569931DEF93</GUID>
     </Functions_Palette_Data>
     <Functions_Palette_Data>
       <Parent_Palette_Index>0</Parent_Palette_Index>
@@ -1153,7 +1151,7 @@ Supported methods:
         <Path>..\src\User.Python\API\Write keep open.vi</Path>
         <VI_Title/>
       </Items_Data>
-      <GUID>540B1F7A4F87F5F6A6A5A35ADF75D5DE</GUID>
+      <GUID>5B0D9F64BBD21B3D8E6386E3873B7154</GUID>
     </Functions_Palette_Data>
   </Library_Palette_Definition>
 </VI_Package_Builder_Settings>
